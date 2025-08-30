@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactTyped } from "react-typed";
-import myPic from '../Image/bg.png'
+import myPic from '../Image/abir.png'
 import { motion } from "framer-motion"
 
 
