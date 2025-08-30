@@ -1,5 +1,5 @@
 import React from 'react';
-import picIcon from '../Image/bg.png'
+import picIcon from '../Image/abir.png'
 import { motion } from "framer-motion"
 
 
@@ -19,8 +19,8 @@ const Rating = () => {
                     <div className="left border flex-col flex px-2 border-gray-400 items-center mt-4 rounded-3xl hover:border-yellow-400 duration-300 py-12
                     "
                     >
-                        <div className=" bg-gray-500 w-[40%] md:w-[20%] flex items-center justify-center my-auto rounded-full mt-6 ">
-                            <img className='md:w-[6vw] w-[20vw]' src={picIcon} alt="" />
+                        <div className=" bg-transparent w-[40%] md:w-[20%] flex items-center justify-center my-auto rounded-full mt-6 ">
+                            <img className='md:w-[6vw] rounded-full w-[20vw]' src={picIcon} alt="" />
                         </div>
                         <h1 className='text-4xl font-bold text-white mt-8'>Abir Ahmed</h1>
                         <h1 className='text-gray-500 mt-1'>(Frontend Develper)</h1>
