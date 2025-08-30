@@ -14,11 +14,11 @@ const Home = () => {
             initial={{ opacity: 0, y: -100 }}
             transition={{ duration: 0.9 }}
           >
-            <h1 className="text-3xl">
-              Hi I'm{" "}
-              <span>
+            <h1 className="">
+              <span className="text-3xl ml-2">Hi I'm</span>
+              <span className="text-6xl">
                 {" "}
-                <br /> Abir Ahmed{" "}
+                <br  /> Abir Ahmed{" "}
               </span>
             </h1>
             <ReactTyped
