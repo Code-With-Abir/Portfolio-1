@@ -4,6 +4,7 @@ import myPic from '../Image/abir.png'
 import { motion } from "framer-motion"
 
 
+
 const Home = () => {
     return (
         <div>
